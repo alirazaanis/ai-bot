@@ -1,0 +1,15 @@
+{
+  "description": "Copy to governance.json and tune for pilot. Most flags are mirrored in environment variables — see docs/GOVERNANCE.md.",
+  "allowedTenantIds": ["00000000-0000-0000-0000-000000000000"],
+  "allowedTeamChannelKeys": [],
+  "teamsRequireMention": true,
+  "emailMode": "draft",
+  "emailSendEnabled": false,
+  "emailSendAllowlist": [],
+  "logMessageBodies": false,
+  "logLlmIo": false,
+  "rateLimit": {
+    "windowMs": 60000,
+    "maxRequestsPerConversation": 20
+  }
+}

@@ -1,0 +1,9 @@
+# Local / IDE
+.cursor/
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets (root or nested)
+.env
+!.env.example
